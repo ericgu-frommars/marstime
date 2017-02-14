@@ -1,0 +1,383 @@
+//-------------------------- 2/14/2017 -- 23:13:46 -----
+Processor Init:
+   Intel Pentium II, ~1.60 Ghz
+     (timed at roughly 1.59 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+setModPaths: invalid mod path directory name: 'creator'
+--------- Loading MODS ---------
+Loading compiled script starter.racing/main.cs.
+setModPaths: invalid mod path directory name: 'creator'
+Loading compiled script common/main.cs.
+Missing file: common/defaults.cs!
+Loading compiled script starter.racing/client/defaults.cs.
+Loading compiled script starter.racing/server/defaults.cs.
+exec: Warning! Found a DSO from the future! (starter.racing/client/prefs.cs.dso)
+Compiling starter.racing/client/prefs.cs...
+Loading compiled script starter.racing/client/prefs.cs.
+exec: Warning! Found a DSO from the future! (starter.racing/server/prefs.cs.dso)
+Compiling starter.racing/server/prefs.cs...
+Loading compiled script starter.racing/server/prefs.cs.
+Missing file: creator/main.cs!
+Error: Unable to find specified mod: creator
+
+--------- Parsing Arguments ---------
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+--------- Initializing MOD: FPS Starter Kit ---------
+Loading compiled script starter.racing/client/init.cs.
+Loading compiled script starter.racing/server/init.cs.
+Missing file: starter.racing/data/init.cs!
+
+--------- Initializing MOD: FPS Starter Kit: Server ---------
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/game.cs.
+Loading compiled script starter.racing/server/scripts/commands.cs.
+Loading compiled script starter.racing/server/scripts/centerPrint.cs.
+Loading compiled script starter.racing/server/scripts/game.cs.
+
+--------- Initializing MOD: FPS Starter Kit: Client ---------
+Loading compiled script starter.racing/client/ui/customProfiles.cs.
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 1024x768x16 (fs)...
+Changing the display settings to 1024x768x16...
+Creating a new full-screen window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics 4400
+  Version: 4.3.0 - Build 20.19.15.4531
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Could not locate texture: common/ui/bs
+Loading compiled script common/ui/ColorPickerDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Could not locate texture: common/ui/bs
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/ui/NetGraphGui.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+ Missing OpenAL Extension function 'EAXSet'
+ Missing OpenAL Extension function 'EAXGet'
+   Vendor: Creative Labs Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script starter.racing/client/scripts/audioProfiles.cs.
+Object 'AudioSim2DLooping' is not a member of the 'AudioDescription' data block class
+Loading compiled script starter.racing/client/ui/defaultGameProfiles.cs.
+Loading compiled script starter.racing/client/ui/PlayGui.gui.
+Loading compiled script starter.racing/client/ui/ChatHud.gui.
+Loading compiled script starter.racing/client/ui/playerList.gui.
+Loading compiled script starter.racing/client/ui/mainMenuGui.gui.
+Loading compiled script starter.racing/client/ui/TitleVideoGui.gui.
+Loading compiled script starter.racing/client/ui/CreditsGui.gui.
+Missing file: starter.racing/client/ui/QuitGui.gui!
+Loading compiled script starter.racing/client/ui/aboutDlg.gui.
+Loading compiled script starter.racing/client/ui/startMissionGui.gui.
+Loading compiled script starter.racing/client/ui/joinServerGui.gui.
+Loading compiled script starter.racing/client/ui/loadingGui.gui.
+Loading compiled script starter.racing/client/ui/endGameGui.gui.
+Loading compiled script starter.racing/client/ui/optionsDlg.gui.
+Loading compiled script starter.racing/client/ui/remapDlg.gui.
+Loading compiled script starter.racing/client/ui/StartupGui.gui.
+Loading compiled script starter.racing/client/scripts/client.cs.
+Loading compiled script starter.racing/client/scripts/game.cs.
+Loading compiled script starter.racing/client/scripts/missionDownload.cs.
+Loading compiled script starter.racing/client/scripts/serverConnection.cs.
+Loading compiled script starter.racing/client/scripts/playerList.cs.
+Loading compiled script starter.racing/client/scripts/loadingGui.cs.
+Loading compiled script starter.racing/client/scripts/creditsGui.cs.
+Loading compiled script starter.racing/client/scripts/TitleVideoGui.cs.
+Loading compiled script starter.racing/client/scripts/optionsDlg.cs.
+Loading compiled script starter.racing/client/scripts/chatHud.cs.
+Loading compiled script starter.racing/client/scripts/messageHud.cs.
+Loading compiled script starter.racing/client/scripts/playGui.cs.
+Loading compiled script starter.racing/client/scripts/centerPrint.cs.
+Loading compiled script starter.racing/client/scripts/VMPlayer.cs.
+Loading compiled script starter.racing/client/scripts/default.bind.cs.
+exec: Warning! Found a DSO from the future! (starter.racing/client/config.cs.dso)
+Compiling starter.racing/client/config.cs...
+Loading compiled script starter.racing/client/config.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Engine initialized...
+Could not locate texture: starter.racing/client/ui/button/QuitButton_d
+Could not locate texture: starter.racing/client/ui/button/QuitButton_i
+Could not locate texture: starter.racing/client/ui/button/StartButton_d
+Could not locate texture: starter.racing/client/ui/button/StartButton_i
+TheoraTexture - Loading file 'starter.racing/data/video/intro.ogg'
+   Ogg logical stream 3415 is Theora 240x192 75.00 fps video
+      - Frame content is 240x180 with offset (0,0).
+Could not locate texture: starter.racing/client/ui/button/CreditsButton_d
+Could not locate texture: starter.racing/client/ui/button/CreditsButton_i
+TheoraTexture - Loading file 'starter.racing/data/video/intro.ogg'
+   Ogg logical stream 3415 is Theora 240x192 75.00 fps video
+      - Frame content is 240x180 with offset (0,0).
+TheoraTexture - Loading file 'starter.racing/data/video/title.ogg'
+   Ogg logical stream 4fc8 is Theora 640x352 29.97 fps video
+      - Frame content is 640x352 with offset (0,0).
+   Ogg logical stream 4fc7 is Vorbis 2 channel 44100 Hz audio.
+Exporting server prefs...
+Loading compiled script starter.racing/server/scripts/audioProfiles.cs.
+Loading compiled script starter.racing/server/scripts/camera.cs.
+Loading compiled script starter.racing/server/scripts/markers.cs.
+Loading compiled script starter.racing/server/scripts/triggers.cs.
+Loading compiled script starter.racing/server/scripts/shapeBase.cs.
+Loading compiled script starter.racing/server/scripts/staticShape.cs.
+Loading compiled script starter.racing/server/scripts/radiusDamage.cs.
+Loading compiled script starter.racing/server/scripts/car.cs.
+Warning: shape starter.racing/data/shapes/buggy/buggy.dts collision detail 0 (Collision-1) bounds exceed that of shape.
+Loading compiled script starter.racing/server/scripts/checkpoint.cs.
+Loading compiled script starter.racing/server/scripts/levelloader.cs.
+Loading compiled script starter.racing/server/scripts/newsItem.cs.
+Warning: shape starter.racing/data/shapes/newsitem/Stone_04.dts collision detail 0 (Collision-1) bounds exceed that of shape.
+Loading compiled script starter.racing/server/scripts/supplyStation.cs.
+Loading compiled script starter.racing/server/scripts/chimneyfire.cs.
+*** LOADING MISSION: starter.racing/data/missions/004.mis
+*** Stage 1 load
+*** Stage 2 load
+Executing starter.racing/data/missions/004.mis.
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+*** Mission loaded
+Connect request from: IPX:6D757468:4B6579730041:90
+Connection established 1598
+CADD: 1599 local
+*** Sending mission load to client: starter.racing/data/missions/004.mis
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgLoadInfo to index: 2
+Mapping string: MsgLoadDescripition to index: 3
+Mapping string: MsgLoadInfoDone to index: 4
+Mapping string: MissionStartPhase1 to index: 5
+*** New Mission: starter.racing/data/missions/004.mis
+*** Phase 1: Download Datablocks & Targets
+Mapping string: MissionStartPhase1Ack to index: 0
+Warning: shape starter.racing/data/shapes/buggy/buggy.dts collision detail 1 (Collision-1) bounds exceed that of shape.
+Warning: shape starter.racing/data/shapes/newsitem/Stone_04.dts collision detail 1 (Collision-1) bounds exceed that of shape.
+Could not locate texture: starter.racing/data/shapes/supplystation/electroball
+Mapping string: MissionStartPhase2 to index: 6
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+Mapping string: UpdateTime to index: 7
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 8
+Client Replication Startup has Happened!
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: Mission Lighting
+Lighting mission....
+    = terrain lit in 0.156 seconds
+ Scene lit in 0.171 seconds
+ Successfully saved mission lighting file: 'starter.racing/data/missions/004_f19422f7.ml'
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+Mapping string: MissionStart to index: 9
+Mapping string: SyncClock to index: 10
+Mapping string: SetMaxLaps to index: 11
+Mapping string: UpdateRoverProperty to index: 12
+Mapping string: UpdateUpgrade to index: 13
+Mapping string: UpdateItemCount to index: 14
+*** Initial Control Object
+starter.racing/client/scripts/serverConnection.cs (40): Unable to find function Editor::checkActiveLoadDone
+Could not locate texture: starter.racing/client/ui/button/MissionButton_d
+Could not locate texture: starter.racing/client/ui/button/MissionButton_i
+Could not locate texture: starter.racing/client/ui/button/HistoryButton_d
+Could not locate texture: starter.racing/client/ui/button/HistoryButton_i
+Could not locate texture: starter.racing/client/ui/button/NewsButton_d
+Could not locate texture: starter.racing/client/ui/button/NewsButton_i
+Could not locate texture: starter.racing/client/ui/button/ItemButton_d
+Could not locate texture: starter.racing/client/ui/button/ItemButton_i
+Could not locate texture: starter.racing/client/ui/button/SendButton_d
+Could not locate texture: starter.racing/client/ui/button/SendButton_i
+Could not locate texture: starter.racing/client/ui/button/ShopButton_d
+Could not locate texture: starter.racing/client/ui/button/ShopButton_i
+Could not locate texture: starter.racing/client/ui/button/InfoButton_d
+Could not locate texture: starter.racing/client/ui/button/InfoButton_i
+Could not locate texture: starter.racing/client/ui/button/UpgradeButton_d
+Could not locate texture: starter.racing/client/ui/button/UpgradeButton_i
+Could not locate texture: starter.racing/client/ui/button/LeaveButton_d
+Could not locate texture: starter.racing/client/ui/button/LeaveButton_i
+Could not locate texture: starter.racing/client/ui/button/ExitButton_d
+Could not locate texture: starter.racing/client/ui/button/ExitButton_i
+Could not locate texture: starter.racing/client/ui/button/IncNumberButton_d
+Could not locate texture: starter.racing/client/ui/button/IncNumberButton_i
+Could not locate texture: starter.racing/client/ui/button/DecNumberButton_d
+Could not locate texture: starter.racing/client/ui/button/DecNumberButton_i
+Could not locate texture: starter.racing/client/ui/button/Ok2Button_d
+Could not locate texture: starter.racing/client/ui/button/Ok2Button_i
+Could not locate texture: starter.racing/client/ui/button/Cancel2Button_d
+Could not locate texture: starter.racing/client/ui/button/Cancel2Button_i
+Could not locate texture: starter.racing/client/ui/button/ExitButton_d
+Could not locate texture: starter.racing/client/ui/button/ExitButton_i
+Could not locate texture: starter.racing/client/ui/button/OkButton_d
+Could not locate texture: starter.racing/client/ui/button/OkButton_i
+Could not locate texture: starter.racing/client/ui/button/CancelButton_d
+Could not locate texture: starter.racing/client/ui/button/CancelButton_i
+Could not locate texture: starter.racing/client/ui/button/ExitButton_d
+Could not locate texture: starter.racing/client/ui/button/ExitButton_i
+Could not locate texture: starter.racing/client/ui/button/OkButton_d
+Could not locate texture: starter.racing/client/ui/button/OkButton_i
+Could not locate texture: starter.racing/client/ui/button/CancelButton_d
+Could not locate texture: starter.racing/client/ui/button/CancelButton_i
+Activating DirectInput...
+keyboard0 input device acquired.
+Mapping string: .1 to index: 15
+Could not locate texture: starter.racing/data/shapes/supplystation/electroball
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 6
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 7
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 8
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowA' in detail level 9
+starter.racing/data/shapes/supplystation.dts - Collision mesh names should start with Col or LOSCol, encountered 'ShadowB' in detail level 9
+Mapping string: IndicateSupplyStation to index: 16
+Mapping string: BottomPrint to index: 17
+Could not locate texture: starter.racing/client/ui/button/QuitButton_d
+Could not locate texture: starter.racing/client/ui/button/QuitButton_i
+Could not locate texture: starter.racing/client/ui/button/StartButton_d
+Could not locate texture: starter.racing/client/ui/button/StartButton_i
+Could not locate texture: starter.racing/client/ui/button/CreditsButton_d
+Could not locate texture: starter.racing/client/ui/button/CreditsButton_i
+TheoraTexture - Loading file 'starter.racing/data/video/intro.ogg'
+   Ogg logical stream 3415 is Theora 240x192 75.00 fps video
+      - Frame content is 240x180 with offset (0,0).
+*** ENDING MISSION
+CDROP: 1599 IPX:6D757468:4B6579730041:90
+Exporting server prefs...
+Exporting client prefs
+Exporting client config
+Exporting server prefs
+Exporting client prefs
+Exporting server prefs
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+Destroying the window...
+keyboard0 input device unacquired.
+DirectInput deactivated.
+Restoring the desktop display settings (1366x768x32)...

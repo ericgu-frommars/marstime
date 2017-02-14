@@ -1,0 +1,115 @@
+Max file  exported to e:\torque\sdk\example\starter.racing\data\shapes\trees\zf001.dts
+Exported on Sun Aug 13 21:13:56 2006
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node bounds with parent 场景根
+Bounding box found
+Processing Node base01 with parent 场景根
+Found subtree starting at Node "base01"
+Processing Node start01 with parent base01
+Processing Node Box01 with parent start01
+Processing Node col-1 with parent start01
+Processing Node detail1 with parent base01
+Processing Node collision-1 with parent base01
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail1" of size 1 to subtree "base01".
+Adding detail named "collision-1" of size -1 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "Box01" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "Box".
+Adding mesh of size 1 to object "Box".
+Object offset transform:
+    scale:            x=0.10381, y=0.10381, z=0.09661
+    stretch rotation: x=0.00000, y=0.00000, z=0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=0.00000, y=0.00000, z=-0.00000, w=1.00000
+Adding node "col-1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "col".
+Adding mesh of size -1 to object "col".
+Object offset transform:
+    scale:            x=0.04425, y=0.01948, z=0.09661
+    stretch rotation: x=0.00000, y=0.00000, z=0.15203, w=0.98838
+    translation:      x=-0.00000, y=-0.00000, z=0.00000
+    actual rotation:  x=0.00000, y=0.00000, z=-0.00000, w=1.00000
+
+Third pass:  Collapsing unneeded nodes...
+
+Removing node "base01"
+Removing node "start01"
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "Box".
+Adding frame.
+Object is visible.
+120 faces, 360 verts, 360 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "col".
+Adding frame.
+Object is visible.
+32 faces, 96 verts, 96 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "Box01".
+  rotation:     x=0.00000, y=0.00000, z=0.59136, w=0.80636
+---------------------------------
+Adding node translation at time 0 for node "Box01".
+  translation:     x=3.02476, y=-3.42223, z=0.83138
+---------------------------------
+Adding node rotation at time 0 for node "col-1".
+  rotation:     x=0.00000, y=0.00000, z=0.59136, w=0.80636
+---------------------------------
+Adding node translation at time 0 for node "col-1".
+  translation:     x=-2.68999, y=1.13388, z=0.91443
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "Box" detail level 1.
+360 verts before joining verts
+75 verts after joining verts
+120 faces before stripping
+Using quick and dirty stripping method.
+9 strips with average length 16.67 (range 4 to 23) and 12 reversals
+Results in 111 cache misses
+
+Optimizing mesh "col" detail level -1.
+96 verts before joining verts
+42 verts after joining verts
+32 faces before stripping
+Using quick and dirty stripping method.
+14 strips with average length 4.29 (range 4 to 6) and 0 reversals
+Results in 42 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail1, Subtree 0, objectDetail 0, size 1
+      collision-1, Subtree 0, objectDetail 1, size -1
+
+   Subtrees:
+      Subtree 0
+         Box01 --> Object Box with following details:  1
+         col-1 --> Object col with following details:  -1
+
+   Sequences:
+
+   Material list:
+   material #0: "Stone_03_diffuse".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

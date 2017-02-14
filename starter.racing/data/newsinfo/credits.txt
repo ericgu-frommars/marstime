@@ -1,0 +1,10 @@
+<just:center>
+<color:FFFFFF><spush><just:center>
+<br><br>
+
+<font:Arial Bold:18> Game Designer<br> Gu ShanHua<br><br>
+<font:Arial Bold:18>Game Programmer<br> Gu ShanHua<br><br>
+<font:Arial Bold:18>3D Artists<br>Zhang Fan<br>Fang Ting<br><br>
+<font:Arial Bold:18>Video Editor<br> Foxkids<br><br>
+<font:Arial Bold:18>Webpage Designer<br>Zheng Li<br><br>
+<font:Arial Bold:18>Thanks To<br> NASA<br>Disney Pictures<br><br>

@@ -1,0 +1,10 @@
+0
+Energy Mass
+50
+Recover some energy.
+10
+1
+Repair Machine
+80
+Recover some health.
+10

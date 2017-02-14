@@ -1,0 +1,578 @@
+//--- OBJECT WRITE BEGIN ---
+new SimGroup(MissionGroup) {
+
+   new ScriptObject(MissionInfo) {
+         objectName1 = "PorousRock";
+         objectDataBlock3 = "IronMeteorite";
+         objectDataBlock1 = "PorousRock";
+         objectDataBlock2 = "GusevRock";
+         objectNum = "4";
+         name = "New Mission";
+         targetObjectID = "1";
+         desc0 = "A simple new mission template.";
+         objectName2 = "GusevRock";
+         objectName3 = "IronMeteorite";
+         objectDataBlock0 = "LayerStone";
+         descLines = "1";
+         objectName0 = "LayerStone";
+   };
+   new MissionArea(MissionArea) {
+      area = "-1032 -1016 2048 2064";
+      flightCeiling = "300";
+      flightCeilingRange = "20";
+         locked = "true";
+   };
+   new Sky(Sky) {
+      position = "344 120 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      materialList = "~/data/skies/sky_day.dml";
+      cloudHeightPer[0] = "0";
+      cloudHeightPer[1] = "0.3";
+      cloudHeightPer[2] = "0.199973";
+      cloudSpeed1 = "0.0005";
+      cloudSpeed2 = "0.001";
+      cloudSpeed3 = "0.0003";
+      visibleDistance = "600";
+      fogDistance = "350";
+      fogColor = "0.788235 0.501961 0.219608 1";
+      fogStorm1 = "0";
+      fogStorm2 = "0";
+      fogStorm3 = "0";
+      fogVolume1 = "0 0 0";
+      fogVolume2 = "0 0 0";
+      fogVolume3 = "0 0 0";
+      fogVolumeColor1 = "128 128 128 -2.22768e+038";
+      fogVolumeColor2 = "128 128 128 0";
+      fogVolumeColor3 = "128 128 128 -1.70699e+038";
+      windVelocity = "10 1 0";
+      windEffectPrecipitation = "1";
+      SkySolidColor = "0.87451 0.607843 0.341176 1";
+      useSkyTextures = "1";
+      renderBottomTexture = "0";
+      noRenderBans = "0";
+         locked = "true";
+   };
+   new Sun(MySun) {
+      azimuth = "0";
+      elevation = "35";
+      color = "0.6 0.6 0.6 1";
+      ambient = "0.4 0.4 0.4 1";
+         direction = "0.57735 0.57735 -0.57735";
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         locked = "true";
+   };
+   new TerrainBlock(Terrain) {
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      detailTexture = "~/data/terrains/details/detail1.png";
+      terrainFile = "./004.ter";
+      squareSize = "8";
+      bumpScale = "2";
+      bumpOffset = "0.007";
+      zeroBumpScale = "7";
+      tile = "1";
+         position = "-1024 -1024 0";
+         locked = "true";
+   };
+   new SimGroup(PlayerDropPoints) {
+
+      new SpawnSphere() {
+         position = "34.3688 -310.213 161.415";
+         rotation = "0 0 1 130.062";
+         scale = "0.940827 1.97505 1";
+         dataBlock = "SpawnSphereMarker";
+         radius = "10";
+         sphereWeight = "1";
+         indoorWeight = "1";
+         outdoorWeight = "1";
+            homingCount = "0";
+            lockCount = "0";
+            locked = "False";
+      };
+   };
+   new TSStatic() {
+      position = "90.8818 -222.074 162.713";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "70.7796 -487.04 107.494";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "120.394 -599.679 108.029";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "80.1089 -509.155 106.068";
+      rotation = "0 0 1 80.787";
+      scale = "0.841459 0.947919 0.986666";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "263.132 -415.793 108.027";
+      rotation = "0 0 1 146.677";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "265.692 -441.508 106.227";
+      rotation = "0 0 -1 95.111";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "284.01 -335.374 147.828";
+      rotation = "-1 0 0 19.4806";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "304.724 -358.416 144.592";
+      rotation = "-1 0 0 22.3454";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "297.756 -98.2483 154.078";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "139.176 27.9723 151.56";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "127.136 147.071 132.62";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "101.629 164.522 131.771";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "31.4692 45.2123 154.45";
+      rotation = "0.967423 -0.242506 0.072693 2.36335";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "-98.589 -96.2209 143.455";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "-143.849 -187.866 127.746";
+      rotation = "-1 0 0 4.01071";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "-172.413 -300.174 121.874";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new TSStatic() {
+      position = "-46.7888 -250.739 146.692";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/trees/zf001.dts";
+   };
+   new fxSunLight(SunFlare) {
+      position = "403.111 -619.944 152.601";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      Enable = "1";
+      LocalFlareBitmap = "common/lighting/corona";
+      RemoteFlareBitmap = "common/lighting/corona";
+      SunAzimuth = "0";
+      SunElevation = "30";
+      LockToRealSun = "1";
+      FlareTP = "1";
+      Colour = "1 0.984127 1 1";
+      Brightness = "1";
+      FlareSize = "1";
+      FadeTime = "0.1";
+      BlendMode = "0";
+      AnimColour = "0";
+      AnimBrightness = "0";
+      AnimRotation = "0";
+      AnimSize = "0";
+      AnimAzimuth = "0";
+      AnimElevation = "0";
+      LerpColour = "1";
+      LerpBrightness = "1";
+      LerpRotation = "1";
+      LerpSize = "1";
+      LerpAzimuth = "1";
+      LerpElevation = "1";
+      LinkFlareSize = "0";
+      SingleColourKeys = "1";
+      MinColour = "0 0 0 1";
+      MaxColour = "1 1 1 1";
+      MinBrightness = "0";
+      MaxBrightness = "1";
+      MinRotation = "0";
+      MaxRotation = "359";
+      minSize = "0.5";
+      MaxSize = "1";
+      MinAzimuth = "0";
+      MaxAzimuth = "359";
+      MinElevation = "-30";
+      MaxElevation = "210";
+      RedKeys = "AZA";
+      GreenKeys = "AZA";
+      BlueKeys = "AZA";
+      BrightnessKeys = "AZA";
+      RotationKeys = "AZA";
+      SizeKeys = "AZA";
+      AzimuthKeys = "AZ";
+      ElevationKeys = "AZ";
+      ColourTime = "5";
+      BrightnessTime = "5";
+      RotationTime = "5";
+      SizeTime = "5";
+      AzimuthTime = "5";
+      ElevationTime = "5";
+   };
+   new SimGroup(gameLevelGroup) {
+
+      new SimGroup(ThreadObjectGroup) {
+
+         new StaticShape(LayerStone) {
+            position = "-414 496 160.266";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "LayerStone";
+               check_flag = "0";
+         };
+         new StaticShape(PorousRock) {
+            position = "-1769 -1433 150.777";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "PorousRock";
+               check_flag = "0";
+         };
+         new StaticShape(GusevRock) {
+            position = "1124 995 159.891";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "GusevRock";
+               check_flag = "0";
+         };
+         new StaticShape(IronMeteorite) {
+            position = "466 -862 152.727";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "IronMeteorite";
+               check_flag = "0";
+         };
+      };
+      new SimGroup(SupplyStationGroup) {
+
+         new StaticShape(SupplyStation0) {
+            position = "-96 -446 155.031";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "SupplyStation";
+               check_flag = "0";
+         };
+         new StaticShape(SupplyStation1) {
+            position = "1558 1586 137.32";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "SupplyStation";
+               check_flag = "0";
+         };
+         new StaticShape(SupplyStation2) {
+            position = "-796 56 135.078";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "SupplyStation";
+               check_flag = "0";
+         };
+      };
+      new SimGroup(RemarkObjectGroup) {
+
+         new ParticleEmitterNode() {
+            position = "-414 496 160.266";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "ChimneySmokeEmitterNode";
+            emitter = "ChimneySmokeEmitter";
+            velocity = "1";
+         };
+         new ParticleEmitterNode() {
+            position = "-1769 -1433 150.777";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "ChimneySmokeEmitterNode";
+            emitter = "ChimneySmokeEmitter";
+            velocity = "1";
+         };
+         new ParticleEmitterNode() {
+            position = "1124 995 159.891";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "ChimneySmokeEmitterNode";
+            emitter = "ChimneySmokeEmitter";
+            velocity = "1";
+         };
+         new ParticleEmitterNode() {
+            position = "466 -862 152.727";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            dataBlock = "ChimneySmokeEmitterNode";
+            emitter = "ChimneySmokeEmitter";
+            velocity = "1";
+         };
+      };
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content4 = "VMPlayerStreamingAudioProfile5";
+         Content1 = "VMPlayerStreamingAudioProfile2";
+         Count = "8";
+         Content5 = "VMPlayerStreamingAudioProfile6";
+         Content2 = "VMPlayerStreamingAudioProfile3";
+         Content6 = "VMPlayerStreamingAudioProfile7";
+         Content3 = "VMPlayerStreamingAudioProfile4";
+         Content7 = "VMPlayerStreamingAudioProfile8";
+         Content0 = "VMPlayerStreamingAudioProfile1";
+   };
+   new ScriptObject() {
+         AudioHandle = "0";
+         AudioChannel = "7";
+         AudioProfile = "VMPlayerStreamingAudioProfile7";
+   };
+   new ScriptObject() {
+         AudioHandle = "0";
+         AudioChannel = "8";
+         AudioProfile = "VMPlayerStreamingAudioProfile8";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Count = "1";
+         Content0 = "2831";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content1 = "1";
+         Count = "3";
+         Content2 = "2";
+         Content0 = "0";
+   };
+   new ScriptObject(VMPlayer) {
+         Debug = "0";
+         PreviousPosition = "-1";
+         CrossFadeOutHandle = "0";
+         CurrentTrackIndex = "1";
+         NextTrackHandle = "0";
+         Streaming = "1";
+         CurrentMusicChannel = "2826";
+         fade = "0";
+         CrossFade = "0";
+         SecondaryAudioChannel = "8";
+         NextTrackIndex = "1";
+         SecondaryMusicChannel = "2827";
+         CheckSongPosHandle = "3869";
+         NextTrackPause = "0";
+         FadeInHandle = "0";
+         CurrentSong = "0";
+         Repeat = "1";
+         NextTracks = "2829";
+         CrossFadeInHandle = "0";
+         Random = "0";
+         CurrentPlaylist = "2831";
+         NextTrackDelayMS = "0";
+         FadeOutHandle = "0";
+         PrimaryAudioChannel = "7";
+         AudioProfiles = "2825";
+         FadeDuration = "2";
+         PrimaryMusicChannel = "2826";
+         Playlists = "2828";
+         CurrentVolume = "0.8";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content1 = "2835";
+         Count = "3";
+         Content2 = "2837";
+         Content0 = "2833";
+   };
+   new ScriptObject() {
+      class = "VMPlayerPlaylist";
+         name = "playlist1";
+         Tracks = "2830";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Count = "0";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g1";
+         fileName = "~/data/sound/g1.ogg";
+         EndPosition = "30.9678";
+         StartPosition = "0";
+         Events = "2832";
+         Artist = "Unknown";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Count = "0";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g2";
+         fileName = "~/data/sound/g2.ogg";
+         EndPosition = "30.9615";
+         StartPosition = "0";
+         Events = "2834";
+         Artist = "Unknown";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g3";
+         fileName = "~/data/sound/g3.ogg";
+         EndPosition = "32.9045";
+         StartPosition = "0";
+         Events = "2836";
+         Artist = "Unknown";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content4 = "VMPlayerStreamingAudioProfile5";
+         Content1 = "VMPlayerStreamingAudioProfile2";
+         Count = "8";
+         Content5 = "VMPlayerStreamingAudioProfile6";
+         Content2 = "VMPlayerStreamingAudioProfile3";
+         Content6 = "VMPlayerStreamingAudioProfile7";
+         Content3 = "VMPlayerStreamingAudioProfile4";
+         Content7 = "VMPlayerStreamingAudioProfile8";
+         Content0 = "VMPlayerStreamingAudioProfile1";
+   };
+   new ScriptObject() {
+         AudioHandle = "0";
+         AudioChannel = "7";
+         AudioProfile = "VMPlayerStreamingAudioProfile7";
+   };
+   new ScriptObject() {
+         AudioHandle = "0";
+         AudioChannel = "8";
+         AudioProfile = "VMPlayerStreamingAudioProfile8";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Count = "1";
+         Content0 = "2858";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content1 = "1";
+         Count = "3";
+         Content2 = "2";
+         Content0 = "0";
+   };
+   new ScriptObject(VMPlayer) {
+         Debug = "0";
+         PreviousPosition = "-1";
+         CrossFadeOutHandle = "0";
+         CurrentTrackIndex = "0";
+         NextTrackHandle = "0";
+         Streaming = "1";
+         CurrentMusicChannel = "2853";
+         fade = "0";
+         CrossFade = "0";
+         SecondaryAudioChannel = "8";
+         NextTrackIndex = "0";
+         SecondaryMusicChannel = "2854";
+         CheckSongPosHandle = "4071";
+         NextTrackPause = "0";
+         FadeInHandle = "0";
+         CurrentSong = "0";
+         Repeat = "1";
+         NextTracks = "2856";
+         CrossFadeInHandle = "0";
+         Random = "0";
+         CurrentPlaylist = "2858";
+         NextTrackDelayMS = "0";
+         FadeOutHandle = "0";
+         PrimaryAudioChannel = "7";
+         AudioProfiles = "2852";
+         FadeDuration = "2";
+         PrimaryMusicChannel = "2853";
+         Playlists = "2855";
+         CurrentVolume = "0.8";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Content1 = "2862";
+         Count = "3";
+         Content2 = "2864";
+         Content0 = "2860";
+   };
+   new ScriptObject() {
+      class = "VMPlayerPlaylist";
+         name = "playlist1";
+         Tracks = "2857";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+         Count = "0";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g1";
+         fileName = "~/data/sound/g1.ogg";
+         EndPosition = "30.9678";
+         StartPosition = "0";
+         Events = "2859";
+         Artist = "Unknown";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g2";
+         fileName = "~/data/sound/g2.ogg";
+         EndPosition = "30.9615";
+         StartPosition = "0";
+         Events = "2861";
+         Artist = "Unknown";
+   };
+   new ScriptObject() {
+      class = "VMPArray";
+   };
+   new ScriptObject() {
+      class = "VMPlayerTrack";
+         Title = "g3";
+         fileName = "~/data/sound/g3.ogg";
+         EndPosition = "32.9045";
+         StartPosition = "0";
+         Events = "2863";
+         Artist = "Unknown";
+   };
+};
+//--- OBJECT WRITE END ---

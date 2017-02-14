@@ -1,0 +1,9 @@
+0
+Info1
+If the price is higher, the info is more believable.
+1
+Info2
+If the price is higher, the info is more believable.
+2
+Info3
+If the price is higher, the info is more believable.
